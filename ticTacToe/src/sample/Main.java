@@ -333,6 +333,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Tic Tac Toe");
         primaryStage.setScene(new Scene(gridPane, 806, 780));
+        primaryStage.setResizable(False);
         primaryStage.show();
     }
 
